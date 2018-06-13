@@ -18,8 +18,10 @@ for i in range(1,31):#每月30天
         if all_money >= 100 and all_money <=150:
             price = price*0.8
             #print(price)
+            #if all_money >150 and all_money<400:
+
         elif all_money >150 and all_money <= 400:
-            price = price*0.5
+                price = price*0.5
             #print(price)#验证
 
         all_money+=price
