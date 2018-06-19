@@ -1,0 +1,15 @@
+str = '人生苦短，我用python，life is short'
+a = str.count('p')
+print('p的个数为:%d'%a)
+b = str.count('l')
+print('i的个数为:%d'%b)
+c =  str.rfind('s')
+print(c)
+str1 = str.upper()
+print(str1)
+str2 = str.lower()
+print(str2)
+str3 = str.title()
+print(str3)
+d = str[7:13]
+print(d)

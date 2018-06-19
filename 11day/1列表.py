@@ -1,4 +1,4 @@
-c = ['xingkai','lishuang','laowang']
+cst = ['xingkai','lishuang','laowang']
 
 for i in c:
     print(i)
